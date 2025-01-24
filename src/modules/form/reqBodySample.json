@@ -1,0 +1,182 @@
+{
+  "clientId":"iamcpm8irve0qhxyabmf845l",
+  "clientSecret":"YEodDueTGfJBu6M231RUwBgI",
+  "subdomain":"mclxdpbrg2n9j1y8ftm46zszshqy",
+  "accountId":"514006027",
+  "customerName":"Bilal",
+  "fields": [
+    {
+      "CustomerKey": "SubscriberKey",
+      "Name": "SubscriberKey",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": true,
+      "IsPrimaryKey": true
+    },
+    {
+      "CustomerKey": "First_Name",
+      "Name": "First_Name",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Last_Name",
+      "Name": "Last_Name",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Email",
+      "Name": "Email",
+      "FieldType": "EmailAddress",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Gender",
+      "Name": "Gender",
+      "FieldType": "Text",
+      "MaxLength": 6,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "City",
+      "Name": "City",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "State",
+      "Name": "State",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Postal",
+      "Name": "Postal",
+      "FieldType": "Text",
+      "MaxLength": 5,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "TMZ",
+      "Name": "TMZ",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Language",
+      "Name": "Language",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Username",
+      "Name": "Username",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Opt_in_date",
+      "Name": "Opt_in_date",
+      "FieldType": "Date",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Channel_Preference",
+      "Name": "Channel_Preference",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "AccountID",
+      "Name": "AccountID",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "DMA",
+      "Name": "DMA",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Birthday",
+      "Name": "Birthday",
+      "FieldType": "Date",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Rewards_Member",
+      "Name": "Rewards_Member",
+      "FieldType": "Text",
+      "MaxLength": 50,
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Membership_Holder",
+      "Name": "Membership_Holder",
+      "FieldType": "Boolean",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "Rewards_Points",
+      "Name": "Rewards_Points",
+      "FieldType": "Number",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "CustomerKey": "App_Installed",
+      "Name": "App_Installed",
+      "FieldType": "Boolean",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    }
+  ],
+  "metaData":{
+    "formBGColor": "#ffffff",
+    "formHeading": "Sign Up For Email Updates",
+    "formHeadingFontColor": "#000000",
+    "formSubmitColor": "#ff3951",
+    "formSubmitFontColor": "#ffffff",
+    "formLogo": "",
+    "formInputs": [
+        {
+            "name": "Email"
+        },
+        {
+            "name": "First Name"
+        }
+    ],
+    "submissionFlag": true,
+    "cancelFlag": true,
+    "emailFlag": false
+}
+}

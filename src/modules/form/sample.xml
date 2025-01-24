@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <s:Header>
+          <a:Action s:mustUnderstand="1">Create</a:Action>
+          <a:To s:mustUnderstand="1">https://mclxdpbrg2n9j1y8ftm46zszshqy.soap.marketingcloudapis.com/Service.asmx</a:To>
+          <fueloauth xmlns="http://exacttarget.com">eyJhbGciOiJIUzI1NiIsImtpZCI6IjQiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJZRWdFS01RQndTaUwyeHR0NjA0QWhNT00iLCJjbGllbnRfaWQiOiJpYW1jcG04aXJ2ZTBxaHh5YWJtZjg0NWwiLCJlaWQiOjUxNDAwNjAyNywic3RhY2tfa2V5IjoiUzExIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciIsInBpZCI6MzIyfQ.5q6Ukpb3t_XmINfJ824k8uUDbYj1Fp2O-oEIw64ZYcA.PValBkaxe0A3X4acarB0x9_c-yjCcRZgDPUnbkFCRLDOC6d45pp2jK_uGosybh8v8cDZLHtBI8xARPpQiQ3_9BvWzV4J--FFZW941FaKLp7W-H2AaRc1jejaN6GgJgKi7yZwXKDAJvXelMcMyE92tRZbeZGPfooDoEB2L</fueloauth>
+      </s:Header>
+      <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <CreateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
+      <Objects xsi:type="DataExtension">
+      <Client>
+    <ID>514006027</ID>
+</Client>
+<CustomerKey>1671205523344</CustomerKey>
+<Name>webForm_1671205523344</Name>
+<IsSendable>true</IsSendable>
+<SendableDataExtensionField>
+    <CustomerKey>Email</CustomerKey>
+    <Name>Email</Name>
+    <FieldType>EmailAddress</FieldType>
+</SendableDataExtensionField>
+<SendableSubscriberField>
+    <Name>Email</Name>
+    <Value>test@gmail.com</Value>
+</SendableSubscriberField>
+<Fields>
+    <Field>
+        <CustomerKey>First_Name</CustomerKey>
+        <Name>First_Name</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Email</CustomerKey>
+        <Name>Email</Name>
+        <FieldType>EmailAddress</FieldType>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>true</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Gender</CustomerKey>
+        <Name>Gender</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>6</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>City</CustomerKey>
+        <Name>City</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>State</CustomerKey>
+        <Name>State</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Postal</CustomerKey>
+        <Name>Postal</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>5</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>TMZ</CustomerKey>
+        <Name>TMZ</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Language</CustomerKey>
+        <Name>Language</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Username</CustomerKey>
+        <Name>Username</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Opt_in_date</CustomerKey>
+        <Name>Opt_in_date</Name>
+        <FieldType>Date</FieldType>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Channel_Preference</CustomerKey>
+        <Name>Channel_Preference</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>AccountID</CustomerKey>
+        <Name>AccountID</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>DMA</CustomerKey>
+        <Name>DMA</Name>
+        <FieldType>Text</FieldType>
+        <MaxLength>50</MaxLength>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Birthday</CustomerKey>
+        <Name>Birthday</Name>
+        <FieldType>Date</FieldType>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+    <Field>
+        <CustomerKey>Rewards_Member</CustomerKey>
+        <Name>Rewards_Member</Name>
+        <FieldType>Text</FieldType>
+    </Field>
+    <Field>
+        <CustomerKey>App_Installed</CustomerKey>
+        <Name>App_Installed</Name>
+        <FieldType>Boolean</FieldType>
+        <IsRequired>false</IsRequired>
+        <IsPrimaryKey>false</IsPrimaryKey>
+    </Field>
+</Fields>
+      </Objects>
+      </CreateRequest>
+      </s:Body>
+      </s:Envelope>

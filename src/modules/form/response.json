@@ -1,0 +1,184 @@
+{
+    "data": {
+        "success": true,
+        "data": {
+            "fields": [
+                {
+                    "IsRequired": true,
+                    "CustomerKey": "SubscriberKey",
+                    "Name": "SubscriberKey",
+                    "MaxLength": 50,
+                    "FieldType": "Text",
+                    "IsPrimaryKey": true
+                },
+                {
+                    "CustomerKey": "First_Name",
+                    "IsRequired": false,
+                    "IsPrimaryKey": false,
+                    "Name": "First_Name",
+                    "MaxLength": 50,
+                    "FieldType": "Text"
+                },
+                {
+                    "FieldType": "Text",
+                    "IsRequired": false,
+                    "CustomerKey": "Last_Name",
+                    "Name": "Last_Name",
+                    "MaxLength": 50,
+                    "IsPrimaryKey": false
+                },
+                {
+                    "FieldType": "EmailAddress",
+                    "CustomerKey": "Email",
+                    "IsRequired": false,
+                    "IsPrimaryKey": false,
+                    "Name": "Email"
+                },
+                {
+                    "IsRequired": false,
+                    "CustomerKey": "Gender",
+                    "IsPrimaryKey": false,
+                    "MaxLength": 6,
+                    "Name": "Gender",
+                    "FieldType": "Text"
+                },
+                {
+                    "IsPrimaryKey": false,
+                    "FieldType": "Text",
+                    "Name": "City",
+                    "IsRequired": false,
+                    "CustomerKey": "City",
+                    "MaxLength": 50
+                },
+                {
+                    "FieldType": "Text",
+                    "Name": "State",
+                    "IsRequired": false,
+                    "MaxLength": 50,
+                    "CustomerKey": "State",
+                    "IsPrimaryKey": false
+                },
+                {
+                    "CustomerKey": "Postal",
+                    "MaxLength": 5,
+                    "IsRequired": false,
+                    "Name": "Postal",
+                    "FieldType": "Text",
+                    "IsPrimaryKey": false
+                },
+                {
+                    "MaxLength": 50,
+                    "CustomerKey": "TMZ",
+                    "IsRequired": false,
+                    "Name": "TMZ",
+                    "FieldType": "Text",
+                    "IsPrimaryKey": false
+                },
+                {
+                    "CustomerKey": "Language",
+                    "IsPrimaryKey": false,
+                    "Name": "Language",
+                    "IsRequired": false,
+                    "FieldType": "Text",
+                    "MaxLength": 50
+                },
+                {
+                    "MaxLength": 50,
+                    "IsRequired": false,
+                    "FieldType": "Text",
+                    "CustomerKey": "Username",
+                    "IsPrimaryKey": false,
+                    "Name": "Username"
+                },
+                {
+                    "Name": "Opt_in_date",
+                    "CustomerKey": "Opt_in_date",
+                    "IsPrimaryKey": false,
+                    "FieldType": "Date",
+                    "IsRequired": false
+                },
+                {
+                    "MaxLength": 50,
+                    "IsPrimaryKey": false,
+                    "Name": "Channel_Preference",
+                    "CustomerKey": "Channel_Preference",
+                    "FieldType": "Text",
+                    "IsRequired": false
+                },
+                {
+                    "CustomerKey": "AccountID",
+                    "IsPrimaryKey": false,
+                    "Name": "AccountID",
+                    "MaxLength": 50,
+                    "IsRequired": false,
+                    "FieldType": "Text"
+                },
+                {
+                    "IsRequired": false,
+                    "IsPrimaryKey": false,
+                    "MaxLength": 50,
+                    "FieldType": "Text",
+                    "Name": "DMA",
+                    "CustomerKey": "DMA"
+                },
+                {
+                    "Name": "Birthday",
+                    "IsPrimaryKey": false,
+                    "FieldType": "Date",
+                    "IsRequired": false,
+                    "CustomerKey": "Birthday"
+                },
+                {
+                    "CustomerKey": "Rewards_Member",
+                    "Name": "Rewards_Member",
+                    "IsRequired": false,
+                    "MaxLength": 50,
+                    "IsPrimaryKey": false,
+                    "FieldType": "Text"
+                },
+                {
+                    "Name": "Membership_Holder",
+                    "IsRequired": false,
+                    "CustomerKey": "Membership_Holder",
+                    "FieldType": "Boolean",
+                    "IsPrimaryKey": false
+                },
+                {
+                    "Name": "Rewards_Points",
+                    "IsPrimaryKey": false,
+                    "CustomerKey": "Rewards_Points",
+                    "FieldType": "Number",
+                    "IsRequired": false
+                },
+                {
+                    "CustomerKey": "App_Installed",
+                    "IsRequired": false,
+                    "FieldType": "Boolean",
+                    "IsPrimaryKey": false,
+                    "Name": "App_Installed"
+                }
+            ],
+            "id": "2c8276f3-0ca9-4d4d-8dd7-84da9a026303",
+            "dataExtensionRef": 1670611368677,
+            "metaData": {
+                "formLogo": "",
+                "formHeadingFontColor": "#000000",
+                "formInputs": [
+                    {
+                        "name": "Email"
+                    },
+                    {
+                        "name": "First Name"
+                    }
+                ],
+                "submissionFlag": true,
+                "formBGColor": "#ffffff",
+                "formSubmitColor": "#ff3951",
+                "cancelFlag": true,
+                "formSubmitFontColor": "#ffffff",
+                "formHeading": "Sign Up For Email Updates",
+                "emailFlag": false
+            }
+        }
+    }
+}
